@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); 
+
+/* 플레이어 기본 베이스 */
+#player,#player a{ color:#aaa; font-size: 11px; font-family: 'Nanum gothic', serif, Cibari; text-transform:normal; text-decoration: none;} 
+#player{ background:url(http://static.tumblr.com/볼륨버튼 텀블러 이미지주소.png); background-position: bottom; background-color:#FFFFE5; }
+#player .mainImage{ background:url(http://static.tumblr.com/메인버튼 텀블러 이미지주소.png); }
+
+#player #baseLeft{ width:188px; }
+#player #baseRight{ width:145px;}
+#player .button{  width:22px; }
+#player #pause{ left:32px; }
+#player #play{ background:url(http://static.tumblr.com/플레이누르는버튼 텀블러 이미지주소.png);left:31px; }
+#player #previous{ left:8px; }
+#player #next{ left:55px; }
+#player #jp-title{ left:888888px; font-size: 9px;} /* 노래제목 표시 위치.안보이게 하기위해 임의 설정*/
+#player #title{ left:8888888px; font-size: 9px;} /* 플레이어 제목 표시 위치.안보이게 하기위해 임의 설정*/
+#player #tooltip{ right:565555px; } /* 기본 플레이어 툴팁 위치. 안보이게 하기위해 임의 설정*/
+#player #timer{ right:5555555px;  } /* 타이머 표시 위치.안보이게 하기위해 임의 설정 */
+#player #list{ right:5px; }
+
+/* Setting/Others Buttons */
+#player #repeatButton a, #player #repeatOnceButton a, 
+#player #repeatAllButton a, #player #shuffleButtonOff a,  #player #shuffleButtonOn a {
+    background-image:url('shuffleRepeatBtn.png');  /* 셔플 선택 버튼-이미지 변경해서 쓰면 주소로. */
+    background-repeat:no-repeat;
+    display: block;
+    width: 22px;
+    height: 25px;
+    outline: 0;
+}
+
+ /* 반복 선택 버튼.안보이게 하기위해 위치 값 임의 설정 */
+#player #repeatButton {left: 8888888px; position:absolute; z-index: 8;}
+#player #repeatButton a {background-position:0px 0px !important;}
+#player #repeatButton a:active {background-position:0px -25px !important;}
+
+ /* 반복 1번 선택 버튼.안보이게 하기위해 위치 값 임의 설정 */
+#player #repeatOnceButton {left: 888888px; position:absolute; z-index: 8;}
+#player #repeatOnceButton a {background-position:-44px 0px !important;}
+#player #repeatOnceButton a:active {background-position:-44px -25px !important;}
+
+/* 반복 전체 선택 버튼.안보이게 하기위해 위치 값 임의 설정 */
+#player #repeatAllButton {left: 888888px; position:absolute; z-index: 8;}
+#player #repeatAllButton a {background-position:-22px 0px !important;}
+#player #repeatAllButton a:active {background-position:-22px -25px !important;}
+
+/* 셔플 버튼.안보이게 하기위해 위치 값 임의 설정 */
+#player #shuffleButtonOff {right: 8888888px; position:absolute; z-index: 8;}
+#player #shuffleButtonOff a {background-position:-66px 0px !important;}
+#player #shuffleButtonOff a:active {background-position:-66px -25px !important;}
+
+#player #shuffleButtonOn {right: 8888888px; position:absolute; z-index: 8;}
+#player #shuffleButtonOn a {background-position:-88px 0px !important;}
+#player #shuffleButtonOn a:active {background-position:-88px -25px !important;}
+
+/* 플레이어 바 설정 */
+#player #seeker{ right:316px; }
+#player #seekerBase{ border-color:#FFFFE5; } /* 플레이어 테두리 색 */
+#player #seekerBuffered{ background-color:#fcc2c2; } /* 플레이 움직이는 포인터 색 */
+#player #seekerSliderBase{ background-color:#FFFFE5; } /* 플레이어 바 배경 색 투명가능 transfer */
+
+#player #volume{ width:8888888px; right:8888888px; } /* 볼륨 표시 위치. 안보이게 하기위해 임의 설정 */
+#player #volumeSlider{ width:14px; background:url(볼륨 커서 텀블러 이미지주소.png); } /* 볼륨 이미지 주소 */
+
+/* 클릭 시 나오는 오른쪽 창 플레이 리스트 설정 */
+#playlist,#playlist .module,#playlist h3{ border-color:#fcc2c2; color:#fcc2c2; }  /* 테두리 색과 폰트 색 */
+#playlist h3{ background-color: #fcc2c2; color:#FFF; font-family: Nanum gothic,Arial,sans-serif; font-size: 11px;line-height: 18px;}  /* 테두리 기본 배경 색과 폰트 색 */
+#playlist .even{background-color:#FFF;} /* 리스트 색상1 */
+#playlist .odd{ background-color:#faecc5;}  /* 리스트 색상2  */
+#playlist .focus{ background-color:#fcc2c2; color:#FFF;}  /* 선택 부분 */
+
+/* White coconut */
