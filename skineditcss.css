@@ -1,0 +1,23 @@
+/* Skin feita por Garotopsicotico */
+/* http://garotopsicotico.tumblr.com */
+/* Porfavor, não retire meus créditos, não a use como base e nem atribua a criação desta a outra pessoa */
+/* deu muito trabalho para faze-la e estou deixando você usar a skin sem pedir nada em troca, então */
+/* tudo o que peço é para se honesto(a) */
+/* Faça bom uso */
+/* Pictures edited */
+
+#player,#player a{ color:#ffffff; }
+#player{ background:url(http://static.tumblr.com/xdlfou0/mOGn17us2/volume.png); background-position:bottom; }
+#player .mainImage{ background:url(https://orig01.deviantart.net/d5ad/f/2015/352/7/6/principaledit_by_maymeadowlark-d9klt3p.png); }
+
+#player #baseLeft{ width:93px; }
+#player #baseRight{ width:145px;}
+#player .button{  width:26px; }
+#player #play{ background:url(https://orig12.deviantart.net/03f6/f/2015/352/0/f/botaodeplayedit_by_maymeadowlark-d9klt3c.png); }
+#player #play,#player #pause{ left:26px; }
+#player #previous{ left:0px; }
+#player #next{ left:52px; }
+#player #title{ left:90px;  }
+#player #tooltip{ right:196px; }
+#player #timer{ right:120px;  }
+#player #list{ right:0px; }
